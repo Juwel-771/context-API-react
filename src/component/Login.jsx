@@ -25,7 +25,7 @@ const Login = () => {
     return (
         <div>
            <h2>Login</h2>
-           <input type="text" value={username} onChange={handleUsername} name="userName" id="" /> 
+           <input type="text" value={username} onChange={handleUsername} name="username" id="" /> 
             <br />
             <input type="password" value={password} onChange={handlePassword} name="password" id="" />
             <br />
