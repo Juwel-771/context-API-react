@@ -4,6 +4,8 @@ import UserContextProvider from './context/UserContextProvider'
 import Login from './component/Login'
 import Profile from './component/Profile'
 import { ThemeProvider } from './context/theme'
+import ThemeBtn from './component/ThemeBtn'
+import Card from './component/Card'
 
 function App() {
 
@@ -35,10 +37,12 @@ return (
       <div className="w-full">
         <div className="w-full max-w-sm mx-auto flex justify-end mb-4">
           {/* theme button */}
+          <ThemeBtn></ThemeBtn>
         </div>
 
         <div className="w-full max-w-sm mx-auto">
           {/* card component */}
+          <Card></Card>
         </div>
       </div>
     </div>
